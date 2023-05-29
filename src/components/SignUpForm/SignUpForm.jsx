@@ -60,6 +60,7 @@ export default function SignUpForm() {
         <button className="drop-shadow-lg bg-current py-2 px-4 mt-4 rounded-3xl w-full">
           Sign up
         </button>
+        <p className="text-center mt-4">Have an account? <a className="underline" href="/login">Login</a></p>
       </form>
     </section>
   );

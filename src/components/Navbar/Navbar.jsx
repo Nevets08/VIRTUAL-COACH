@@ -9,13 +9,16 @@ export default function Navbar() {
         <FontAwesomeIcon icon={faUsersRays} /> VIRTUAL COACH
       </a>
       <div>
-        <a className="mx-8" href="">
+      <a className="mx-4" href="/">
+          HOME
+        </a>
+        <a className="mx-4" href="">
           FIND GYMMATE
         </a>
-        <a className="mx-8" href="">
+        <a className="mx-4" href="">
           CREATE MY PROGRAM
         </a>
-        <a className="mx-8" href="">
+        <a className="mx-4" href="">
           CALCULATE MY BMI
         </a>
       </div>
@@ -26,7 +29,7 @@ export default function Navbar() {
         >
           Sign up
         </a>
-        <a className="ml-5 underline" href="">
+        <a className="ml-5 underline" href="/login">
           Login
         </a>
       </div>
