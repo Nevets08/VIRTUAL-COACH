@@ -1,0 +1,19 @@
+@use "./colors" as *;
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+  background-color: $bg;
+  width: 80%;
+  margin: auto;
+}
+
+img {
+    max-width: none;
+}
+
+section {
+    margin: 90px 0;
+}
