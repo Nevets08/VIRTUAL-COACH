@@ -10,14 +10,12 @@ import Footer from "../components/Footer/Footer";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <main>
         <MakeYou />
         <BMI />
         <CreateProgram />
         <StartNow />
-        <Footer />
       </main>
     </div>
   );

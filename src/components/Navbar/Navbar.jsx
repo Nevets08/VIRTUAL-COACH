@@ -5,9 +5,9 @@ import { faUsersRays } from "@fortawesome/free-solid-svg-icons";
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center h-16">
-      <span className="font-bold text-2xl">
+      <a href="/" className="font-bold text-2xl">
         <FontAwesomeIcon icon={faUsersRays} /> VIRTUAL COACH
-      </span>
+      </a>
       <div>
         <a className="mx-8" href="">
           FIND GYMMATE
@@ -22,7 +22,7 @@ export default function Navbar() {
       <div>
         <a
           className="bg-current py-2 px-4 rounded-3xl drop-shadow-lg"
-          href="#make-you"
+          href="/signup"
         >
           Sign up
         </a>
